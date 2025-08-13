@@ -1,6 +1,4 @@
-from django.urls import path
-from .views import *
+from django.urls import path 
+from .import views 
 
-urlpatterns = [
-    
-]
+urlpatterns = [path('about/' , views.about_view , name='about ') , ]
